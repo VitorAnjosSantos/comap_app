@@ -3,51 +3,61 @@
   overflow: hidden;
 }
 
-.label{
-  padding-left: 5px;
-  margin-right: 10px;
-  position: relative;
-  float: left;
+#pesquisador{
+  margin-left: -5px;
 
 }
 
-.sentido.label{
-  margin-left: 15px;
-  position: relative;
-  float: left;
-  border-radius: 5px;
-  border: 1px solid #D2D9E2;
+#sentido{
+  margin-left: 10px;
+  display: flex;
+  position: relative
+}
 
+.label{
+  position: relative;
+  margin-right: 5px;
+  margin-bottom: 10px;
+
+}
+
+.radio{
   
+  position: relative;
+  margin-right: 10px;
+
+}
+
+.radios{
+  margin-top: -15px
 }
 
 .input{
     
     border: 1px solid #D2D9E2;
-    width: 120px;
-    height: 30px;
-    margin-left: 5px;
-    margin-right: 5px;
-        
+    margin-bottom: 10px;
+    margin-top: 5px;
+
 }
 
-.pesquisador{
+.mesma_linha{
+    
+  border: 1px solid #D2D9E2;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  
+}
+
+ion-item.no-padding{
+  --padding-end: 0px;
+  --inner-padding-end: 0px;
+  
+}
+
+#de_para{
   display: flex;
-  justify-content: center
-}
-
-.sentido{
-  margin-top: 10px;
-  margin-left: 5px;
+  margin-top: -5px ;
+  margin-left: -5px;
+  
 
 }
-
-.de_para{
-  display: flex;
-  justify-content: center;
-  margin-top: -5px 
-
-}
-
-
-
