@@ -3,13 +3,9 @@
   overflow: hidden;
 }
 
-#pesquisador{
-  margin-left: -5px;
-
-}
 
 #sentido{
-  margin-left: 10px;
+  margin-left: 15px;
   display: flex;
   position: relative
 }
@@ -45,19 +41,21 @@
   border: 1px solid #D2D9E2;
   margin-bottom: 10px;
   margin-top: 5px;
+  position: relative;
   
 }
 
-ion-item.no-padding{
-  --padding-end: 0px;
-  --inner-padding-end: 0px;
-  
+.no-padding{
+
+  padding: 0px
+
 }
 
-#de_para{
-  display: flex;
+
+
+ion-item.de_para{
   margin-top: -5px ;
-  margin-left: -5px;
-  
-
+  position: relative;
+  --padding-end: 0px;
+  --padding-start: 16px;
 }
