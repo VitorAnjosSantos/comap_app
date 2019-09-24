@@ -6,7 +6,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content class="content">
   <div class="container">
     <div id="pesquisador">
 
@@ -25,17 +25,17 @@
 
         <div id="ladoAlado">
 
-          <ion-label class="label">Sentido:</ion-label>
+          <ion-label class="labelSentido">Sentido:</ion-label>
 
             <ion-item class="radios">     
-              <ion-label class="label">1 </ion-label>
-              <ion-radio class="radio" slot="start" value="sentido1"></ion-radio>
+              <ion-label class="radio">1 </ion-label>
+              <ion-radio slot="start" value="sentido1"></ion-radio>
               
             </ion-item>
             <ion-item class="radios">     
 
-              <ion-label class="label">2 </ion-label>
-              <ion-radio class="radio"  slot="start" value="sentido2"></ion-radio>
+              <ion-label class="radio">2 </ion-label>
+              <ion-radio  slot="start" value="sentido2"></ion-radio>
 
             </ion-item>
         </div>
@@ -74,14 +74,14 @@
             <div id="ladoAlado">
         
                 <ion-item class="pavimentacao">     
-                  <ion-label class="label">Pavimentada </ion-label>
-                  <ion-radio class="radio" slot="start" value="pavimentada"></ion-radio>
+                  <ion-label class="radio">Pavimentada </ion-label>
+                  <ion-radio slot="start" value="pavimentada"></ion-radio>
                   
                 </ion-item>
-                <ion-item class="pavimentacao">     
+                <ion-item class="pavimentacao ion-no-padding">     
     
-                  <ion-label class="label">Não Pavimentada </ion-label>
-                  <ion-radio class="radio"  slot="start" value="naoPavimentada"></ion-radio>
+                  <ion-label class="radio">Não Pavimentada </ion-label>
+                  <ion-radio slot="start" value="naoPavimentada"></ion-radio>
     
                 </ion-item>
             </div>
@@ -96,7 +96,7 @@
               <ion-input  placeholder="EX: 100"  inputmode="text" class="input" ></ion-input>
             </ion-item>
           </div>
-          <div class="idPosto">
+          <div class="conteudo">
         
               <ion-label class="label">Id Posto de Coleta:</ion-label>
               <ion-item>
@@ -104,6 +104,8 @@
               </ion-item>
             </div>
 
+        
+   <ion-button class="button" color="tertiary " expand="round">Enviar </ion-button>
 
 
 

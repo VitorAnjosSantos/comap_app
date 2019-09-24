@@ -1,0 +1,114 @@
+.welcome-card img {
+    max-height: 35vh;
+    overflow: hidden;
+  }
+  
+  ion-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 90px 1px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #7e57ff;
+    color: #ffffff;
+    font-size: 25px
+  }
+  
+  
+  #ladoAlado{
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    
+  }
+  
+  .labelSentido{
+    position: relative;
+    margin-left: 16px;
+    margin-bottom: 20px;
+    font-size: 20px
+  
+  
+  }
+  
+  .label{
+    @extend .labelSentido
+  }
+  
+  .radio{
+    
+    position: relative;
+    margin-left: 2px;
+    font-size: 20px;
+    margin-bottom: 5px;
+  
+  
+  
+  
+  }
+  
+  .radios{
+    margin-top: -15px
+  }
+  
+  .pavimentacao{
+    margin-right: 20px;
+    margin-top: -15px;
+    margin-bottom: 10px;
+  
+  }
+  
+  .input{
+      
+      border: 1px solid #989AA2;
+      border-radius: 3px;
+      margin-bottom: 15px;
+      font-size: 20px
+  
+  
+  }
+  
+  .mesma_linha{
+      
+    border: 1px solid #989AA2;
+    margin-bottom: 20px;
+    position: relative;
+    
+  }
+  
+  .no-padding{
+  
+    padding: 0px
+  
+  }
+  
+  .de_para{
+    margin-top: -5px ;
+    position: relative;
+    --padding-end: 0px;
+    font-size: 20px
+  
+    
+  }
+  
+  .container{
+    margin-left: 16px;
+    margin-right: 16px;
+    position:relative;
+    margin-top: 20%;
+  }
+  
+  .button{
+    width: 150px;
+    height: 50px;
+    margin-left: 35%;
+    margin-top: 15px
+  
+  }
+  
+  .numeros{
+    margin-left: 10px;
+  
+   }

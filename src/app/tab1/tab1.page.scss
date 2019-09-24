@@ -11,27 +11,41 @@ ion-title {
   width: 100%;
   height: 100%;
   text-align: center;
-  background-color: #6A5ACD;
+  background-color: #7e57ff;
   color: #ffffff;
   font-size: 25px
 }
 
+
 #ladoAlado{
   display: flex;
-  position: relative
+  position: relative;
+  margin-top: 10px;
+  
+}
+
+.labelSentido{
+  position: relative;
+  margin-left: 16px;
+  margin-bottom: 20px;
+  font-size: 20px
+
+
 }
 
 .label{
-  position: relative;
-  margin-left: 16px;
-  margin-bottom: 10px;
-
+  @extend .labelSentido
 }
 
 .radio{
   
   position: relative;
-  margin-right: 5px;
+  margin-left: 2px;
+  font-size: 20px;
+  margin-bottom: 5px;
+
+
+
 
 }
 
@@ -40,22 +54,26 @@ ion-title {
 }
 
 .pavimentacao{
-  @extend .radio;
-  margin-right: 50px
+  margin-right: 20px;
+  margin-top: -15px;
+  margin-bottom: 10px;
+
 }
 
 .input{
     
-    border: 1px solid #D2D9E2;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    border: 1px solid #989AA2;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    font-size: 20px
+
 
 }
 
 .mesma_linha{
     
-  border: 1px solid #D2D9E2;
-  margin-bottom: 10px;
+  border: 1px solid #989AA2;
+  margin-bottom: 20px;
   position: relative;
   
 }
@@ -70,10 +88,27 @@ ion-title {
   margin-top: -5px ;
   position: relative;
   --padding-end: 0px;
-  --padding-start: 16px;
+  font-size: 20px
+
+  
 }
 
 .container{
   margin-left: 16px;
-  position:relative
+  margin-right: 16px;
+  position:relative;
+  margin-top: 20%;
 }
+
+.button{
+  width: 150px;
+  height: 50px;
+  margin-left: 35%;
+  margin-top: 15px
+
+}
+
+.numeros{
+  margin-left: 10px;
+
+ }
