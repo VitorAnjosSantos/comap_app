@@ -1,116 +1,116 @@
 <ion-header>
-    <ion-toolbar>
-      <ion-title >
-        Novo Pesquisador
-      </ion-title>
-    </ion-toolbar>
-  </ion-header>
-  
-  <ion-content class="content">
-    <div class="container">
-      <div id="pesquisador">
-  
-        <ion-item>
-          <ion-input  placeholder="Pesquisador"  inputmode="text" class="input" ></ion-input>
-        </ion-item>
-  
-        <ion-item>
-          <ion-input placeholder="Supervisor" inputmode="text"  class="input"></ion-input>
-        </ion-item>
-  
-      </div>
-  
-      <ion-list >
-        <ion-radio-group>
-  
-          <div id="ladoAlado">
-  
-            <ion-label class="labelSentido">Sentido:</ion-label>
-  
-              <ion-item class="radios">     
-                <ion-label class="radio">1 </ion-label>
-                <ion-radio slot="start" value="sentido1"></ion-radio>
-                
-              </ion-item>
-              <ion-item class="radios">     
-  
-                <ion-label class="radio">2 </ion-label>
-                <ion-radio  slot="start" value="sentido2"></ion-radio>
-  
-              </ion-item>
-          </div>
-  
-        </ion-radio-group>
-      </ion-list>
-  
-        <ion-row>
-  
-          <ion-col class="no-padding">
-                <ion-item class="de_para">
-                  <ion-input  placeholder="De:"  inputmode="text" class="mesma_linha"></ion-input>
-                </ion-item>
-          </ion-col>
-  
-          <ion-col class="no-padding">
-  
-              <ion-item class="de_para">
-  
-                  <ion-input placeholder="Para:" inputmode="text" class="mesma_linha"></ion-input>
-                </ion-item>
-            </ion-col>
-        </ion-row>
-  
-        <div class="conteudo">
-          
-          <ion-label class="label">Rodovia:</ion-label>
-          <ion-item>
-            <ion-input  placeholder="EX: BR110"  inputmode="text" class="input" ></ion-input>
-          </ion-item>
+  <ion-toolbar>
+    <ion-title >
+      Novo Pesquisador
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="content">
+  <div class="container">
+    <div id="pesquisador">
+
+      <ion-item>
+        <ion-input  placeholder="Pesquisador"  inputmode="text" class="input" ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input placeholder="Supervisor" inputmode="text"  class="input"></ion-input>
+      </ion-item>
+
+    </div>
+
+    <ion-list >
+      <ion-radio-group>
+
+        <div id="ladoAlado">
+
+          <ion-label class="labelSentido">Sentido:</ion-label>
+
+            <ion-item class="radios">     
+              <ion-label class="radio">1 </ion-label>
+              <ion-radio slot="start" value="sentido1"></ion-radio>
+              
+            </ion-item>
+            <ion-item class="radios">     
+
+              <ion-label class="radio">2 </ion-label>
+              <ion-radio  slot="start" value="sentido2"></ion-radio>
+
+            </ion-item>
         </div>
-  
-        <ion-list >
-            <ion-radio-group>
-      
-              <div id="ladoAlado">
-          
-                  <ion-item class="pavimentacao">     
-                    <ion-label class="radio">Pavimentada </ion-label>
-                    <ion-radio slot="start" value="pavimentada"></ion-radio>
-                    
-                  </ion-item>
-                  <ion-item class="pavimentacao ion-no-padding">     
-      
-                    <ion-label class="radio">Não Pavimentada </ion-label>
-                    <ion-radio slot="start" value="naoPavimentada"></ion-radio>
-      
-                  </ion-item>
-              </div>
-      
-            </ion-radio-group>
-          </ion-list>
-  
-          <div class="km">
-          
-              <ion-label class="label">Km:</ion-label>
+
+      </ion-radio-group>
+    </ion-list>
+
+      <ion-row>
+
+        <ion-col class="no-padding">
+              <ion-item class="de_para">
+                <ion-input  placeholder="De:"  inputmode="text" class="mesma_linha"></ion-input>
+              </ion-item>
+        </ion-col>
+
+        <ion-col class="no-padding">
+
+            <ion-item class="de_para">
+
+                <ion-input placeholder="Para:" inputmode="text" class="mesma_linha"></ion-input>
+              </ion-item>
+          </ion-col>
+      </ion-row>
+
+      <div class="conteudo">
+        
+        <ion-label class="label">Rodovia:</ion-label>
+        <ion-item>
+          <ion-input  placeholder="EX: BR110"  inputmode="text" class="input" ></ion-input>
+        </ion-item>
+      </div>
+
+      <ion-list >
+          <ion-radio-group>
+    
+            <div id="ladoAlado">
+        
+                <ion-item class="pavimentacao">     
+                  <ion-label class="radio">Pavimentada </ion-label>
+                  <ion-radio slot="start" value="pavimentada"></ion-radio>
+                  
+                </ion-item>
+                <ion-item class="pavimentacao ion-no-padding">     
+    
+                  <ion-label class="radio">Não Pavimentada </ion-label>
+                  <ion-radio slot="start" value="naoPavimentada"></ion-radio>
+    
+                </ion-item>
+            </div>
+    
+          </ion-radio-group>
+        </ion-list>
+
+        <div class="km">
+        
+            <ion-label class="label">Km:</ion-label>
+            <ion-item>
+              <ion-input  placeholder="EX: 100"  inputmode="text" class="input" ></ion-input>
+            </ion-item>
+          </div>
+          <div class="conteudo">
+        
+              <ion-label class="label">Id Posto de Coleta:</ion-label>
               <ion-item>
-                <ion-input  placeholder="EX: 100"  inputmode="text" class="input" ></ion-input>
+                <ion-input  placeholder="EX: BR110"  inputmode="text" class="input" ></ion-input>
               </ion-item>
             </div>
-            <div class="conteudo">
-          
-                <ion-label class="label">Id Posto de Coleta:</ion-label>
-                <ion-item>
-                  <ion-input  placeholder="EX: BR110"  inputmode="text" class="input" ></ion-input>
-                </ion-item>
-              </div>
-  
-          
-     <ion-button class="button" color="tertiary " expand="round">Enviar </ion-button>
-  
-  
-  
+
+    <div class="button">
+      <ion-button  color="tertiary " expand="round">Entrar </ion-button>
     </div>
-  
-  </ion-content>
-  
-  
+
+
+
+  </div>
+
+</ion-content>
+
