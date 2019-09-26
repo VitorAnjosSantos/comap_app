@@ -1,3 +1,20 @@
 .tabs{
-    font-size: 20px;
+    font-size: 15px;
 }
+
+.tab1{
+    margin-right: 60px
+}
+
+.icon{
+    width: 100px;
+    height: 40px;
+}
+
+.bottom{
+    height: 100px;
+}
+
+ion-tab-button {
+    --color-selected: #7E57FF;
+   }
