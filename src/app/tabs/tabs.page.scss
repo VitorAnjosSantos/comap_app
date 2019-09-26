@@ -1,10 +1,18 @@
 .tabs{
-    font-size: 15px;
+    margin-right: 60px;  
+    --padding-end: 0px;
+    --padding-start: 0px;
+
+
+
 }
 
-.tab1{
-    margin-right: 60px
+.label{
+    font-size: 17px;
+
+
 }
+
 
 .icon{
     width: 100px;
@@ -17,4 +25,4 @@
 
 ion-tab-button {
     --color-selected: #7E57FF;
-   }
+}
