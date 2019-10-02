@@ -13,11 +13,11 @@
     <div class="container">
   
         <div class="pesquisa">
-            <ion-button class="pesquisaTamanho" color="tertiary" expand="round">Automóveis (0) </ion-button>
+            <ion-button class="pesquisaTamanho"  expand="round">Automóveis (0) </ion-button>
         </div>
 
         <div class="pesquisa">
-            <ion-button class="pesquisaTamanho" color="tertiary" expand="round">Caminhões (0) </ion-button>
+            <ion-button class="pesquisaTamanho"  expand="round">Caminhões (0) </ion-button>
         </div>
 
     </div>
@@ -26,7 +26,7 @@
 
       <h1>Concluir Envios</h1>
 
-      <div>
+      <div class="divTipoEnvio">
           <label class="tipoEnvio">Pesados</label>
           <label class="tipoEnvio">Leves</label>
 
@@ -35,14 +35,15 @@
       
       <div class="envios">
           <label class="labelEnvios">Enviados</label>
-          <label class="labelEnvios">Não Enviados</label>
-          <label class="lcontagem">0</label>
-          <label class="lcontagem">0</label>
+          <label class="contagem" name="enviadoPesado">10</label>
+          <label class="contagem" name="enviadoLeve">0</label>
+
       </div>
 
-      <div class="contagem">
-          <label class="lcontagem">0</label>
-          <label class="lcontagem">0</label>
+      <div class="envios">
+        <label class="labelEnvios">Não Enviados</label>
+        <label class="contagem" name="naoEnviadoPesado">10</label>
+        <label class="contagem" name="naoEnviadoLeve">0</label>
       </div>
   
 
