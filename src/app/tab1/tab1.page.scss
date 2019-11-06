@@ -14,21 +14,14 @@ ion-title {
 
 .container{
   margin: 0 auto;
-  margin-left: 32px;
-  margin-right: 32px;
-  margin-bottom: 115px;
-  margin-top: 120px;
   position:relative;
-  border: 1px solid #989AA2;
-  border-radius: 15px;
-  padding-bottom: 20px;
-  padding-top: 16px
-
-
+ 
+  
 }
 
 .ultimoPesquisador{
   margin-left: 15px;  
+
 }
 
 .button{
@@ -36,14 +29,20 @@ ion-title {
   height: 50px;
   margin: 0 auto;
   font-size: 18px;
+  margin-top: 10px;
+  --padding-end: 0px;
+  --padding-start: 0px;
+}
+
+h1 {
+  font-size: 15px;
+
 }
 
 .conteudo{
   margin: 0 auto;
-
+  align-content: center;
 }
-
-
 
 
 
