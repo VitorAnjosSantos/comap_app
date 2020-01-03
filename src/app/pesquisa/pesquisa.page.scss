@@ -16,6 +16,8 @@ ion-title {
     
     border-radius: 20px;
     background-color: #3880FF;
+    width: 50%;
+    font-size: large;
 
   }
 
@@ -24,15 +26,9 @@ ion-title {
     color: #ffffff;
     text-align: center;
     font-size: 20px;
-  }
-  
-  .conteudo{
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%,-50%);
-    width: 100%;
   
   }
+  
   
   .botao{
     justify-content: center;
@@ -40,28 +36,29 @@ ion-title {
     margin-top: 30px;
     position: relative;
     
-  }
-
-  
+  }  
 
   .pesquisa{ 
-      margin: 0 auto;
       display: flex;
       justify-content: center;
+      margin-top: 15px;
 
   }
+
 
  .limparBase{
    float: left;
    margin-left: 20px;
-   display: flex;
+   width: 40%;
+   font-size: 13px;
+
  }
 
  .enviarDados{
    float: right;
    margin-right: 20px;
-   display: flex;
-
+   width: 40%;
+   font-size: 13px;
 
  }
 
@@ -74,8 +71,6 @@ ion-title {
   .leves{
     float: right;
     margin-right: 60px;
-
-
 
   }
 
@@ -93,24 +88,35 @@ ion-title {
   }
 
   .lcontagem{
-    display: flex
+    display: flex;
   }
   
 
   .labelEnvios{
     margin-top: 25px;
     position: relative;
-    width: 25px
+    width: 25px;
 
   }
 
   .envios{
-    margin-top: 40px
+    margin-top: 40px;
+
+  }
+
+  .container{
+    position: absolute;
+    top: 30%; left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
   }
 
   .concluirEnvios{
-    margin-top: 100px;
-   
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 20px;
+    
   }
   
   
